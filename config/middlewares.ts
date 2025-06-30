@@ -3,7 +3,10 @@ export default [
   {
     name: "strapi::cors",
     config: {
-      origin: ["http://localhost:5173"],
+      origin: [
+        "http://localhost:5173",
+        "https://joyful-hotteok-ee4df9.netlify.app",
+      ],
       credentials: true,
     },
   },
