@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "whatsapp_links",
+  "info": {
+    "singularName": "whatsapp-link",
+    "pluralName": "whatsapp-links",
+    "displayName": "Whatsapp link"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mobile_no": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}
